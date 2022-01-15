@@ -14,7 +14,8 @@ public class FactureController {
     }
     public Facture save(Facture f)
     {
-        service.save(f);
+        f.toString();
+     //   service.save(f);
         return  null;
     }
 }

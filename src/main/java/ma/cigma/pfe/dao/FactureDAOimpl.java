@@ -15,10 +15,10 @@ public class FactureDAOimpl implements IfactureDAO{
     }
     @Override
     public Facture save(Facture f) {
-        em.getTransaction().begin();
+  /*      em.getTransaction().begin();
         em.persist(f);
         em.getTransaction().commit();
-
+*/
 
         return null;
     }
